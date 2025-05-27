@@ -4,6 +4,7 @@
     "slug": "homefix",
     "version": "1.0.0",
     "orientation": "portrait",
+    "scheme": "homefix",
     "userInterfaceStyle": "light",
     "assetBundlePatterns": [
       "**/*"
@@ -15,6 +16,13 @@
       "adaptiveIcon": {
         "backgroundColor": "#6C63FF"
       }
-    }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "server"
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
-} 
+}
